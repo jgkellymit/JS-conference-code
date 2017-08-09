@@ -1,0 +1,8 @@
+.SpinTitle h1 {color: green;}
+.congrats h1 {color:red; font-size: 50}
+.SpinTitle span.yellow {color: gold; font: Comic; font-weight:600;}
+.SpinTitle span.orange {color: orange; font: Comic; font-weight:600;}
+.SpinTitle span.red {color: red; font: Comic; font-weight:600;}
+.SpinTitle span.green {color: green; font: Comic; font-weight:600;}
+.SpinTitle span.blue {color: blue; font: Comic; font-weight:600;}
+.SpinTitle span.winnings {font: Comic; font-weight:800;}

@@ -1,0 +1,11 @@
+<div class="loginTitle" style="text-align:center">
+  <form #form="ngForm" (ngSubmit)="handleLoginSubmit(form)">
+    <h1>
+      Please Provide Username and Password to Login.
+    </h1>
+    <input type="text" name="Username" placeholder="username" ngModel/>
+    <input type="password" name="Password" placeholder="password" ngModel/>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button>
+  </form>
+</div>

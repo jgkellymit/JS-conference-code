@@ -1,0 +1,44 @@
+<div class="SpinTitle" style="text-align:center">
+  <h1>
+    Press Spin to test your luck!
+  </h1>
+  <span class="winnings">
+    Winnings:
+  </span>
+  <br>
+  <span class="yellow">
+    yellow = 50 credits
+  </span>
+  <span class="orange">
+    orange = 25 credits
+  </span>
+  <span class="red">
+    red = 15 credits
+  </span>
+  <span class="blue">
+    blue = 10 credits
+  </span>
+  <span class="green">
+    green = 5 credits
+  </span>
+  <br>
+  Credits remaining: {{credits}} <br>
+  <button (click)="handleSpin()">Spin</button>
+  <button (click)="reset()">Reset</button>
+</div>
+
+<div class="Spins" style="text-align:center"  >
+      <h1>
+        {{wheel1result}}
+        <br>
+        {{wheel2result}}
+        <br>
+        {{wheel3result}}
+      </h1>
+</div>
+
+<div class="congrats" style="text-align:center">
+    <h1>
+      {{congratsMessage}}
+    </h1>
+</div>
